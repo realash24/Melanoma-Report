@@ -1,0 +1,334 @@
+﻿Name,MUTATIONSUBTYPES,UV-signature,PIGMENT.SCORE,CURATED_AGE_AT_INITIAL_PATHOLOGIC_DIAGNOSIS,GENDER,CURATED_KNOWN_PRIMARY,CURATED_SITE_OF_PRIMARY_TUMOR_KNOWN_PRIMARY_ONLY,CURATED_BRESLOW,CURATED_ULCERATION,CURATED_T_STAGE_AT_DIAGNOSIS_SIMPLE,CURATED_N_STAGE_AT_DIAGNOSIS_SIMPLE,CURATED_M_STAGE_AT_DIAGNOSIS_SIMPLE,CURATED_PATHOLOGIC_STAGE_AJCC7_AT_DIAGNOSIS_SIMPLE,CURATED_TCGA_SPECIMEN_SITE,CURATED_VITAL_STATUS,CURATED_DAYS_TO_DEATH_OR_LAST_FU,"CURATED_MELANOMA_SPECIFIC_VITAL_STATUS [0 = ""ALIVE OR CENSORED""; 1 = ""DEAD OF MELANOMA""]"
+TCGA-BF-A1PU-01,BRAF_Hotspot_Mutants,UV signature,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A1PV-01,RAS_Hotspot_Mutants,UV signature,0,74,FEMALE,YES,Trunk,9,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,14,0
+TCGA-BF-A1PX-01,BRAF_Hotspot_Mutants,UV signature,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A1PZ-01,RAS_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A1Q0-01,Triple_WT,not UV,0,80,MALE,YES,Trunk,5,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,17,0
+TCGA-BF-A3DJ-01,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A3DL-01,BRAF_Hotspot_Mutants,UV signature,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A3DM-01,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A3DN-01,BRAF_Hotspot_Mutants,UV signature,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A5EO-01,RAS_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A5EP-01,-,-,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A5EQ-01,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A5ER-01,-,-,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-BF-A5ES-01,-,-,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-D3-A1Q1-06,RAS_Hotspot_Mutants,not UV,0,79,FEMALE,YES,Extremities,0.4,NO,T1,N3,M0,Stage III,Regional Lymph Node,Dead,504,1
+TCGA-D3-A1Q3-06,Triple_WT,not UV,0,64,MALE,YES,Extremities,4.6,YES,T4,N0,M0,Stage II,Regional Lymph Node,Dead,507,1
+TCGA-D3-A1Q4-06,BRAF_Hotspot_Mutants,UV signature,0,53,FEMALE,YES,Extremities,1.45,YES,T2,N1,M0,Stage III,Regional Lymph Node,Alive,3408,0
+TCGA-D3-A1Q5-06,BRAF_Hotspot_Mutants,UV signature,0,60,MALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Regional Lymph Node,Dead,3423,[Not Available]
+TCGA-D3-A1Q6-06,BRAF_Hotspot_Mutants,UV signature,0,55,MALE,YES,Extremities,50,[Not Available],T4,N1,M0,Stage III,Regional Skin or Soft Tissue,Dead,2184,0
+TCGA-D3-A1Q7-06,BRAF_Hotspot_Mutants,UV signature,0,42,FEMALE,YES,Trunk,0.68,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,3687,0
+TCGA-D3-A1Q8-06,RAS_Hotspot_Mutants,UV signature,0,33,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N3,M1,Stage IV,Regional Lymph Node,Dead,854,1
+TCGA-D3-A1Q9-06,BRAF_Hotspot_Mutants,not UV,0,72,MALE,YES,Extremities,6,YES,T4,N2,M0,Stage III,Regional Lymph Node,Dead,961,1
+TCGA-D3-A1QA-06,BRAF_Hotspot_Mutants,not UV,0,55,MALE,YES,Extremities,1.12,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,2326,0
+TCGA-D3-A1QB-06,RAS_Hotspot_Mutants,UV signature,2,75,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N2,M0,Stage III,Regional Lymph Node,Alive,2512,0
+TCGA-D3-A2J6-06,Triple_WT,not UV,1,65,MALE,YES,Extremities,3.2,YES,T3,N0,M0,Stage II,Regional Lymph Node,Dead,1320,1
+TCGA-D3-A2J7-06,BRAF_Hotspot_Mutants,UV signature,0,67,MALE,YES,Trunk,3.6,YES,T3,N1,M0,Stage III,Regional Lymph Node,Dead,3136,1
+TCGA-D3-A2J8-06,RAS_Hotspot_Mutants,UV signature,1,48,MALE,YES,Extremities,1.4,NO,T2,N0,M0,Stage I,Regional Lymph Node,Dead,1992,1
+TCGA-D3-A2J9-06,Triple_WT,UV signature,0,75,MALE,YES,Trunk|Extremities,21,YES,T4,N3,M0,Stage III,Regional Lymph Node,Dead,723,1
+TCGA-D3-A2JA-06,BRAF_Hotspot_Mutants,UV signature,0,68,MALE,YES,Trunk,1.2,NO,T2,N1,M0,Stage III,Regional Skin or Soft Tissue,Alive,3514,0
+TCGA-D3-A2JB-06,Triple_WT,not UV,3,70,FEMALE,YES,Extremities,[Not Available],[Not Available],[Not Applicable],N0,M0,Stage 0,Regional Lymph Node,Dead,5110,0
+TCGA-D3-A2JC-06,Triple_WT,not UV,0,53,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N2,M0,Stage III,Regional Lymph Node,Alive,2126,0
+TCGA-D3-A2JD-06,BRAF_Hotspot_Mutants,UV signature,3,58,MALE,YES,Extremities,18,YES,T4,N1,M0,Stage III,Regional Lymph Node,Dead,361,1
+TCGA-D3-A2JF-06,RAS_Hotspot_Mutants,UV signature,0,74,MALE,YES,Extremities,0.28,NO,T1,N0,M0,Stage I,Distant Metastasis,Alive,1483,0
+TCGA-D3-A2JG-06,BRAF_Hotspot_Mutants,UV signature,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-D3-A2JH-06,BRAF_Hotspot_Mutants,UV signature,0,68,MALE,YES,Extremities,1,NO,T1,N0,M0,Stage I,Regional Skin or Soft Tissue,Alive,951,0
+TCGA-D3-A2JK-06,BRAF_Hotspot_Mutants,UV signature,2,24,MALE,YES,Trunk,4.3,YES,T4,N2,M0,Stage III,Regional Lymph Node,Dead,368,1
+TCGA-D3-A2JL-06,RAS_Hotspot_Mutants,UV signature,0,43,FEMALE,YES,Extremities,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Regional Lymph Node,Alive,4748,0
+TCGA-D3-A2JN-06,BRAF_Hotspot_Mutants,UV signature,0,46,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N1,M0,Stage III,Regional Lymph Node,Dead,2022,0
+TCGA-D3-A2JO-06,RAS_Hotspot_Mutants,UV signature,0,50,FEMALE,YES,Extremities,[Not Available],YES,[Not Applicable],N3,M0,Stage III,Regional Skin or Soft Tissue,Alive,1547,0
+TCGA-D3-A2JP-06,BRAF_Hotspot_Mutants,UV signature,0,37,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N3,M0,Stage III,Regional Lymph Node,Alive,1371,0
+TCGA-D3-A3BZ-06,Triple_WT,not UV,3,63,MALE,YES,Head and Neck,4.6,NO,T4,N0,M0,Stage II,Regional Lymph Node,Alive,3516,0
+TCGA-D3-A3C1-06,BRAF_Hotspot_Mutants,UV signature,2,28,MALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Regional Lymph Node,Alive,[Not Available],0
+TCGA-D3-A3C3-06,BRAF_Hotspot_Mutants,UV signature,0,31,FEMALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Regional Lymph Node,Alive,[Not Available],0
+TCGA-D3-A3C6-06,BRAF_Hotspot_Mutants,not UV,1,54,FEMALE,YES,Extremities,1.3,NO,T2,N0,M0,Stage I,Regional Lymph Node,Dead,1765,1
+TCGA-D3-A3C7-06,BRAF_Hotspot_Mutants,UV signature,0,57,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N1,M0,Stage III,Regional Lymph Node,Alive,1007,0
+TCGA-D3-A3C8-06,Triple_WT,UV signature,0,58,FEMALE,YES,Head and Neck,[Not Available],[Not Available],[Not Applicable],N3,M0,Stage III,Regional Skin or Soft Tissue,Alive,1038,0
+TCGA-D3-A3CB-06,BRAF_Hotspot_Mutants,UV signature,1,39,MALE,YES,Trunk,1.75,[Not Available],T2,N0,M0,[Not Applicable],Regional Lymph Node,Alive,5052,0
+TCGA-D3-A3CC-06,Triple_WT,not UV,1,69,FEMALE,YES,Other  Specify,7.2,YES,T4,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,2644,0
+TCGA-D3-A3CE-06,BRAF_Hotspot_Mutants,not UV,0,74,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N1,M0,Stage III,Regional Lymph Node,Dead,1832,1
+TCGA-D3-A3CF-06,Triple_WT,not UV,1,61,FEMALE,YES,Other  Specify,9,YES,T4,N3,M0,Stage III,Regional Lymph Node,Dead,746,1
+TCGA-D3-A3ML-06,RAS_Hotspot_Mutants,UV signature,0,70,MALE,YES,Head and Neck,2.3,NO,T3,N2,M0,Stage III,Regional Lymph Node,Dead,421,1
+TCGA-D3-A3MO-06,BRAF_Hotspot_Mutants,UV signature,0,47,MALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N2,M0,Stage III,Regional Skin or Soft Tissue,Dead,283,1
+TCGA-D3-A3MR-06,BRAF_Hotspot_Mutants,UV signature,0,42,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N1,M0,Stage III,Regional Skin or Soft Tissue,Alive,3151,0
+TCGA-D3-A3MU-06,BRAF_Hotspot_Mutants,UV signature,3,53,MALE,YES,Trunk,2.9,NO,T3,N2,M0,Stage III,Regional Lymph Node,Alive,819,0
+TCGA-D3-A3MV-06,RAS_Hotspot_Mutants,UV signature,0,38,FEMALE,YES,Extremities,1.2,YES,T2,N2,M0,Stage III,Regional Skin or Soft Tissue,Alive,653,0
+TCGA-D3-A51E-06,RAS_Hotspot_Mutants,UV signature,0,39,FEMALE,YES,Extremities,1.2,[Not Available],T2,N0,M0,[Not Applicable],Regional Skin or Soft Tissue,Alive,4923,0
+TCGA-D3-A51F-06,BRAF_Hotspot_Mutants,UV signature,0,51,MALE,YES,Extremities,7,YES,T4,N1,M0,Stage III,Regional Lymph Node,Alive,1329,0
+TCGA-D3-A51G-06,RAS_Hotspot_Mutants,UV signature,0,35,MALE,YES,Trunk,0,[Not Available],[Not Applicable],N0,M0,Stage 0,Regional Skin or Soft Tissue,Alive,[Not Available],0
+TCGA-D3-A51H-06,Triple_WT,UV signature,0,60,MALE,YES,Trunk,0.91,YES,T1,N3,M0,Stage III,Regional Lymph Node,Alive,1221,0
+TCGA-D3-A51J-06,BRAF_Hotspot_Mutants,UV signature,0,19,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N1,M0,Stage III,Regional Skin or Soft Tissue,Alive,4012,0
+TCGA-D3-A51K-06,Triple_WT,not UV,3,51,MALE,YES,Extremities,0,[Not Available],[Not Applicable],N2,M0,Stage III,Regional Lymph Node,Alive,559,0
+TCGA-D3-A51N-06,BRAF_Hotspot_Mutants,UV signature,2,56,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N3,M1,Stage IV,Regional Lymph Node,Alive,305,0
+TCGA-D3-A51R-06,RAS_Hotspot_Mutants,UV signature,0,60,MALE,YES,Extremities,2.5,NO,T3,N0,M0,Stage II,Regional Lymph Node,Alive,1572,0
+TCGA-D3-A51T-06,RAS_Hotspot_Mutants,UV signature,1,59,FEMALE,YES,Trunk,4.2,YES,T4,N1,M0,Stage III,Regional Lymph Node,Alive,458,0
+TCGA-D3-A5GL-06,-,-,-,74,MALE,YES,Extremities,1.6,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,3373,0
+TCGA-D3-A5GN-06,BRAF_Hotspot_Mutants,UV signature,0,15,FEMALE,YES,Trunk,0.6,[Not Available],T1,N0,M0,Stage I,Regional Lymph Node,Alive,4140,0
+TCGA-D3-A5GO-06,RAS_Hotspot_Mutants,UV signature,0,61,MALE,YES,Head and Neck,4.3,[Not Available],T4,N0,M0,Stage II,Distant Metastasis,Alive,4195,0
+TCGA-D3-A5GR-06,BRAF_Hotspot_Mutants,UV signature,0,23,FEMALE,YES,Extremities,0.98,[Not Available],T1,N1,M0,Stage III,Regional Lymph Node,Alive,5052,0
+TCGA-D3-A5GS-06,BRAF_Hotspot_Mutants,UV signature,1,58,MALE,YES,Trunk,0.62,NO,T1,N1,M1,Stage IV,Regional Lymph Node,Alive,226,0
+TCGA-D3-A5GU-06,BRAF_Hotspot_Mutants,UV signature,-,36,MALE,YES,Extremities,0.48,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,3808,0
+TCGA-D9-A148-06,BRAF_Hotspot_Mutants,UV signature,1,40,MALE,YES,Trunk,[Not Available],NO,[Not Applicable],N3,M1,Stage IV,Regional Lymph Node,Alive,4609,0
+TCGA-D9-A149-06,Triple_WT,UV signature,2,65,FEMALE,YES,Trunk,[Not Available],NO,[Not Applicable],N1,M0,Stage III,Regional Skin or Soft Tissue,Alive,1663,0
+TCGA-D9-A1JW-06,Triple_WT,UV signature,0,82,MALE,YES,Head and Neck,[Not Available],NO,T1,N2,M0,Stage III,Regional Lymph Node,Alive,111,0
+TCGA-D9-A1JX-06,BRAF_Hotspot_Mutants,UV signature,1,80,FEMALE,YES,Extremities,[Not Available],NO,[Not Applicable],[Not Applicable],M0,[Not Applicable],Regional Lymph Node,Dead,215,1
+TCGA-D9-A3Z1-06,RAS_Hotspot_Mutants,UV signature,0,66,MALE,YES,[Not Available],1.7,NO,T2,N3,M0,Stage III,Regional Lymph Node,Alive,345,0
+TCGA-D9-A3Z3-06,BRAF_Hotspot_Mutants,UV signature,2,39,FEMALE,YES,[Not Available],3.9,NO,T3,N1,M0,Stage III,Regional Lymph Node,Alive,98,0
+TCGA-D9-A3Z4-01,RAS_Hotspot_Mutants,UV signature,2,54,MALE,YES,[Not Available],12,YES,T4,N3,M0,Stage III,Primary Tumor,Alive,118,0
+TCGA-D9-A4Z2-01,BRAF_Hotspot_Mutants,not UV,1,50,MALE,YES,Trunk|Extremities,25,YES,T4,N3,M0,Stage III,Primary Tumor,Alive,93,0
+TCGA-D9-A4Z3-01,RAS_Hotspot_Mutants,UV signature,1,73,FEMALE,YES,Extremities,75,YES,T4,N1,M0,Stage III,Primary Tumor,Alive,104,0
+TCGA-D9-A4Z5-01,Triple_WT,not UV,3,68,MALE,YES,Head and Neck,[Not Available],NO,T4,N0,M0,Stage II,[Not Available],Alive,141,0
+TCGA-DA-A1HV-06,RAS_Hotspot_Mutants,UV signature,0,75,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N2,M0,Stage III,Regional Lymph Node,Alive,1487,0
+TCGA-DA-A1HW-06,BRAF_Hotspot_Mutants,UV signature,0,37,FEMALE,YES,Trunk,0.7,NO,T1,N1,M0,Stage III,Regional Lymph Node,Dead,1096,1
+TCGA-DA-A1HY-06,BRAF_Hotspot_Mutants,UV signature,0,42,MALE,YES,Extremities,1.13,YES,T2,N3,M0,Stage III,Regional Lymph Node,Alive,3564,0
+TCGA-DA-A1I0-06,BRAF_Hotspot_Mutants,UV signature,2,63,MALE,YES,Trunk,4.5,YES,T4,N3,M1,Stage IV,Regional Skin or Soft Tissue,Dead,620,1
+TCGA-DA-A1I1-06,RAS_Hotspot_Mutants,UV signature,0,55,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N3,M0,Stage III,Regional Skin or Soft Tissue,Alive,5926,0
+TCGA-DA-A1I2-06,BRAF_Hotspot_Mutants,UV signature,0,45,MALE,YES,Trunk,[Not Available],YES,T4,N2,M0,Stage III,Regional Lymph Node,Dead,5370,1
+TCGA-DA-A1I4-06,BRAF_Hotspot_Mutants,UV signature,1,51,MALE,YES,Trunk,3.4,YES,T3,N2,M0,Stage III,Regional Skin or Soft Tissue,Dead,1093,1
+TCGA-DA-A1I5-06,BRAF_Hotspot_Mutants,UV signature,0,27,FEMALE,YES,Head and Neck,0.6,NO,T1,N0,M1,Stage IV,Distant Metastasis,Alive,3265,0
+TCGA-DA-A1I7-06,BRAF_Hotspot_Mutants,UV signature,0,62,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N2,M0,Stage III,Regional Skin or Soft Tissue,Alive,1861,0
+TCGA-DA-A1I8-06,BRAF_Hotspot_Mutants,UV signature,0,63,FEMALE,YES,Extremities,8,YES,T4,N3,M0,Stage III,Regional Skin or Soft Tissue,Dead,1640,1
+TCGA-DA-A1IA-06,Triple_WT,UV signature,1,32,FEMALE,YES,Extremities,1.3,NO,T2,N1,M0,Stage III,Distant Metastasis,Dead,2005,1
+TCGA-DA-A1IB-06,Triple_WT,not UV,1,69,FEMALE,YES,Extremities,1.5,YES,T2,N2,M0,Stage III,Regional Lymph Node,Alive,713,0
+TCGA-DA-A1IC-06,NF1_Any_Mutants,UV signature,1,81,MALE,YES,Extremities,2.5,NO,T3,N2,M0,Stage III,Regional Skin or Soft Tissue,Dead,2071,1
+TCGA-DA-A3F2-06,Triple_WT,not UV,1,55,MALE,YES,Trunk,5.1,NO,T4,N2,M0,Stage III,Regional Skin or Soft Tissue,Alive,870,0
+TCGA-DA-A3F3-06,RAS_Hotspot_Mutants,UV signature,1,52,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N2,M0,Stage III,Regional Lymph Node,Dead,319,1
+TCGA-DA-A3F5-06,BRAF_Hotspot_Mutants,UV signature,1,45,MALE,YES,Trunk,0.4,NO,T1,N3,M0,Stage III,Regional Lymph Node,Alive,6553,0
+TCGA-DA-A3F8-06,BRAF_Hotspot_Mutants,UV signature,2,39,MALE,YES,Head and Neck,1.9,NO,T2,N2,M0,Stage III,Regional Lymph Node,Alive,477,0
+TCGA-EB-A1NK-01,RAS_Hotspot_Mutants,UV signature,1,48,MALE,YES,Extremities,8,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,612,0
+TCGA-EB-A24C-01,BRAF_Hotspot_Mutants,not UV,1,56,MALE,YES,Trunk,10,YES,T4,[Not Applicable],M0,[Not Applicable],Primary Tumor,Alive,632,0
+TCGA-EB-A24D-01,BRAF_Hotspot_Mutants,UV signature,0,72,MALE,YES,Extremities,36,NO,T4,N2,M0,Stage III,Primary Tumor,Alive,302,0
+TCGA-EB-A299-01,BRAF_Hotspot_Mutants,UV signature,0,63,MALE,YES,Extremities,2,YES,T2,N0,M0,Stage II,Primary Tumor,Alive,378,0
+TCGA-EB-A3HV-01,BRAF_Hotspot_Mutants,UV signature,1,37,MALE,YES,Trunk,13,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,39,0
+TCGA-EB-A3XB-01,BRAF_Hotspot_Mutants,UV signature,1,63,MALE,YES,Trunk,[Not Available],[Not Available],T4,[Not Applicable],M0,[Not Applicable],Primary Tumor,Alive,408,0
+TCGA-EB-A3XC-01,BRAF_Hotspot_Mutants,UV signature,1,74,MALE,YES,Trunk,[Not Available],YES,T4,N0,M0,Stage II,Primary Tumor,Alive,9,0
+TCGA-EB-A3XD-01,BRAF_Hotspot_Mutants,UV signature,2,53,FEMALE,YES,Extremities,[Not Available],YES,T4,[Not Applicable],M0,[Not Applicable],Primary Tumor,Alive,430,0
+TCGA-EB-A3XE-01,BRAF_Hotspot_Mutants,not UV,1,77,FEMALE,YES,Trunk,3,NO,T3,N0,M0,Stage II,Primary Tumor,Alive,179,0
+TCGA-EB-A3XF-01,-,-,1,57,MALE,YES,Trunk,10,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,277,0
+TCGA-EB-A3Y6-01,BRAF_Hotspot_Mutants,UV signature,0,56,FEMALE,YES,Extremities,4.5,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,16,0
+TCGA-EB-A3Y7-01,NF1_Any_Mutants,UV signature,0,86,FEMALE,YES,Head and Neck,4,NO,T3,N2,M0,Stage III,Primary Tumor,Alive,0,0
+TCGA-EB-A41A-01,NF1_Any_Mutants,UV signature,0,90,MALE,YES,Head and Neck,7,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,8,0
+TCGA-EB-A41B-01,RAS_Hotspot_Mutants,UV signature,0,76,FEMALE,YES,Extremities,28,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,3,0
+TCGA-EB-A42Y-01,Triple_WT,not UV,1,73,FEMALE,YES,Extremities,5,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,6,0
+TCGA-EB-A42Z-01,BRAF_Hotspot_Mutants,UV signature,0,49,MALE,YES,Extremities,10,YES,T4,N1,M0,Stage III,Primary Tumor,Alive,441,0
+TCGA-EB-A430-01,BRAF_Hotspot_Mutants,UV signature,0,[Not Available],MALE,YES,Trunk,18,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,[Discrepancy],0
+TCGA-EB-A431-01,BRAF_Hotspot_Mutants,UV signature,0,34,MALE,YES,Extremities,15,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,52,0
+TCGA-EB-A44N-01,BRAF_Hotspot_Mutants,UV signature,0,59,MALE,YES,Extremities,5,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,45,0
+TCGA-EB-A44O-01,RAS_Hotspot_Mutants,UV signature,0,69,MALE,YES,Trunk,5,NO,T4,N0,M0,Stage II,Primary Tumor,Alive,5,0
+TCGA-EB-A44P-01,BRAF_Hotspot_Mutants,UV signature,0,58,FEMALE,YES,Trunk,[Not Available],[ERROR],T4,N0,M0,Stage II,Primary Tumor,Alive,7,0
+TCGA-EB-A44Q-06,RAS_Hotspot_Mutants,not UV,0,51,FEMALE,YES,Extremities,[Not Available],YES,[Not Applicable],N3,M0,Stage III,Regional Lymph Node,Alive,28,0
+TCGA-EB-A44R-06,RAS_Hotspot_Mutants,not UV,0,52,MALE,YES,Extremities,[Not Available],[Not Available],[Not Applicable],N2,M0,Stage III,Regional Lymph Node,Alive,309,0
+TCGA-EB-A4IQ-01,Triple_WT,not UV,1,42,FEMALE,YES,Other  Specify,15,YES,T4,N1,M0,Stage III,Primary Tumor,Alive,12,0
+TCGA-EB-A4IS-01,BRAF_Hotspot_Mutants,UV signature,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EB-A4OY-01,Triple_WT,not UV,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EB-A4OZ-01,BRAF_Hotspot_Mutants,not UV,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EB-A4P0-01,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EB-A4XL-01,-,-,0,56,FEMALE,YES,Extremities,7,YES,T4,[Not Applicable],M0,[Not Applicable],Primary Tumor,Alive,0,0
+TCGA-EB-A51B-01,-,-,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EB-A550-01,-,-,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EB-A551-01,RAS_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EB-A553-01,BRAF_Hotspot_Mutants,UV signature,0,62,MALE,YES,Trunk,[Not Available],YES,T4,N0,M0,Stage II,Primary Tumor,Alive,13,0
+TCGA-EB-A5FP-01,-,-,0,65,FEMALE,YES,Trunk,8,YES,T4,[Not Applicable],M1,Stage IV,Primary Tumor,Alive,6,0
+TCGA-EB-A5KH-06,-,-,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A17X-06,RAS_Hotspot_Mutants,UV signature,0,54,MALE,YES,Trunk,0.8,NO,T1,N0,M0,Stage I,Regional Lymph Node,Dead,907,1
+TCGA-EE-A17Y-06,BRAF_Hotspot_Mutants,UV signature,0,69,MALE,YES,Trunk,2.8,YES,T3,N1,M0,Stage III,Regional Skin or Soft Tissue,Dead,828,1
+TCGA-EE-A17Z-06,Triple_WT,not UV,0,57,MALE,YES,Trunk,29,NO,T4,N0,M0,Stage II,Regional Lymph Node,Dead,263,1
+TCGA-EE-A180-06,NF1_Any_Mutants,UV signature,1,69,MALE,YES,Trunk,4.9,NO,T4,N0,M0,Stage II,Distant Metastasis,Dead,2889,1
+TCGA-EE-A181-06,NF1_Any_Mutants,UV signature,0,82,FEMALE,YES,Extremities,2.5,[Not Available],T3,N0,M0,Stage II,Regional Lymph Node,Dead,1026,0
+TCGA-EE-A182-06,NF1_Any_Mutants,UV signature,2,84,FEMALE,YES,Trunk,14,YES,T4,N1,M0,Stage III,Distant Metastasis,Dead,447,1
+TCGA-EE-A183-06,BRAF_Hotspot_Mutants,UV signature,1,48,MALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N0,M0,Stage 0,Regional Lymph Node,Dead,817,1
+TCGA-EE-A184-06,RAS_Hotspot_Mutants,not UV,0,72,MALE,YES,Extremities,1.95,NO,T2,N0,M0,Stage I,Distant Metastasis,Dead,2073,[Not Available]
+TCGA-EE-A185-06,RAS_Hotspot_Mutants,UV signature,1,55,FEMALE,YES,Extremities,6,YES,T4,N3,M0,Stage III,Regional Lymph Node,Dead,150,1
+TCGA-EE-A20B-06,BRAF_Hotspot_Mutants,UV signature,0,66,FEMALE,YES,Extremities,2.6,[Not Available],T3,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,3335,0
+TCGA-EE-A20C-06,RAS_Hotspot_Mutants,UV signature,0,59,MALE,YES,Extremities,[Not Available],[Not Available],[Not Applicable],N0,M0,Stage 0,Distant Metastasis,Dead,4600,1
+TCGA-EE-A20F-06,BRAF_Hotspot_Mutants,UV signature,0,53,MALE,YES,Extremities,0.5,[Not Available],T1,N0,M0,Stage I,Regional Lymph Node,Alive,2399,0
+TCGA-EE-A20H-06,BRAF_Hotspot_Mutants,UV signature,0,56,MALE,YES,Extremities,1.05,[Not Available],T2,N0,M0,[Not Applicable],Distant Metastasis,Dead,5118,1
+TCGA-EE-A20I-06,Triple_WT,not UV,0,79,MALE,YES,Extremities,[Not Available],YES,[Not Applicable],N0,M1,Stage IV,Regional Skin or Soft Tissue,Dead,412,1
+TCGA-EE-A29A-06,BRAF_Hotspot_Mutants,UV signature,0,68,MALE,YES,Trunk,2.3,NO,T3,N1,M0,Stage III,Distant Metastasis,Dead,1926,1
+TCGA-EE-A29B-06,RAS_Hotspot_Mutants,UV signature,1,67,MALE,YES,Extremities,4,YES,T3,N0,M0,Stage II,Distant Metastasis,Alive,2452,0
+TCGA-EE-A29C-06,BRAF_Hotspot_Mutants,UV signature,1,20,MALE,YES,Trunk,1.7,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,1455,0
+TCGA-EE-A29D-06,Triple_WT,UV signature,2,87,MALE,YES,Head and Neck,3.2,YES,T3,N1,M0,Stage III,Regional Lymph Node,Dead,425,[Not Available]
+TCGA-EE-A29E-06,BRAF_Hotspot_Mutants,UV signature,1,54,MALE,YES,Extremities,3.2,NO,T3,N1,M0,Stage III,Regional Lymph Node,Alive,1205,0
+TCGA-EE-A29G-06,RAS_Hotspot_Mutants,UV signature,1,53,MALE,YES,Head and Neck,7.4,NO,T4,N2,M0,Stage III,Regional Skin or Soft Tissue,Dead,2191,1
+TCGA-EE-A29H-06,BRAF_Hotspot_Mutants,UV signature,0,59,FEMALE,YES,Trunk,1,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,979,0
+TCGA-EE-A29L-06,RAS_Hotspot_Mutants,UV signature,0,78,MALE,YES,Extremities,7,YES,T4,N3,M0,Stage III,Regional Lymph Node,Dead,78,[Not Available]
+TCGA-EE-A29M-06,BRAF_Hotspot_Mutants,UV signature,0,33,FEMALE,YES,Extremities,1.02,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,1349,0
+TCGA-EE-A29N-06,NF1_Any_Mutants,UV signature,0,78,MALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Regional Lymph Node,Dead,565,1
+TCGA-EE-A29P-06,BRAF_Hotspot_Mutants,UV signature,0,73,FEMALE,YES,Trunk,4.5,YES,T4,N0,M0,Stage II,Regional Lymph Node,Alive,1716,0
+TCGA-EE-A29Q-06,RAS_Hotspot_Mutants,UV signature,0,70,FEMALE,YES,Extremities,2.3,YES,T3,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,1136,0
+TCGA-EE-A29R-06,RAS_Hotspot_Mutants,UV signature,0,48,FEMALE,YES,Head and Neck,3.5,YES,T3,N1,M0,Stage III,Regional Lymph Node,Alive,440,0
+TCGA-EE-A29S-06,RAS_Hotspot_Mutants,UV signature,0,79,MALE,YES,Extremities,2.5,NO,T3,N0,M0,Stage II,Regional Lymph Node,Alive,1700,0
+TCGA-EE-A29T-06,-,-,1,51,FEMALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],[Not Applicable],M0,[Not Applicable],Regional Lymph Node,Alive,10523,0
+TCGA-EE-A29V-06,RAS_Hotspot_Mutants,UV signature,2,85,MALE,YES,Head and Neck,3.5,YES,T3,N1,M0,Stage III,Distant Metastasis,Dead,787,1
+TCGA-EE-A29W-06,BRAF_Hotspot_Mutants,UV signature,0,42,MALE,YES,Extremities,0,[Not Available],[Not Applicable],N0,M0,Stage 0,Regional Lymph Node,Alive,5217,0
+TCGA-EE-A29X-06,RAS_Hotspot_Mutants,UV signature,2,58,FEMALE,YES,Head and Neck,2,NO,T2,N0,M0,Stage I,Regional Lymph Node,Dead,545,1
+TCGA-EE-A2A0-06,Triple_WT,UV signature,0,77,FEMALE,YES,Extremities,2.2,NO,T3,N0,M0,Stage II,Regional Lymph Node,Dead,1424,1
+TCGA-EE-A2A1-06,RAS_Hotspot_Mutants,UV signature,1,46,MALE,YES,Extremities,1.3,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,2401,0
+TCGA-EE-A2A2-06,RAS_Hotspot_Mutants,UV signature,1,71,MALE,YES,Trunk,7,YES,T4,N1,M0,Stage III,Regional Lymph Node,Alive,743,0
+TCGA-EE-A2A5-06,RAS_Hotspot_Mutants,UV signature,0,43,MALE,YES,Extremities,1.1,NO,T2,N0,M0,Stage I,Regional Skin or Soft Tissue,Dead,1194,1
+TCGA-EE-A2A6-06,BRAF_Hotspot_Mutants,UV signature,0,43,MALE,YES,Trunk,0.55,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,1787,0
+TCGA-EE-A2GB-06,BRAF_Hotspot_Mutants,UV signature,0,51,MALE,YES,Trunk,1.65,YES,T2,N1,M0,Stage III,Regional Lymph Node,Alive,1446,0
+TCGA-EE-A2GC-06,NF1_Any_Mutants,UV signature,0,82,MALE,YES,Head and Neck,2.3,YES,T3,N0,M0,Stage II,Regional Lymph Node,Alive,1315,0
+TCGA-EE-A2GD-06,RAS_Hotspot_Mutants,UV signature,0,58,FEMALE,YES,Extremities,4.4,YES,T4,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,9567,0
+TCGA-EE-A2GE-06,BRAF_Hotspot_Mutants,UV signature,0,44,MALE,YES,Trunk,0.9,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,4134,0
+TCGA-EE-A2GH-06,BRAF_Hotspot_Mutants,UV signature,0,34,MALE,YES,Trunk,0.8,[Not Available],T1,N0,M0,Stage I,Regional Lymph Node,Alive,5536,0
+TCGA-EE-A2GI-06,NF1_Any_Mutants,UV signature,0,39,MALE,YES,Extremities,0.65,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,686,0
+TCGA-EE-A2GJ-06,RAS_Hotspot_Mutants,UV signature,0,83,MALE,YES,Extremities,0.4,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,2717,0
+TCGA-EE-A2GK-06,Triple_WT,not UV,1,46,FEMALE,YES,Trunk,0.8,[Not Available],T1,N0,M0,Stage I,Regional Lymph Node,Alive,1664,0
+TCGA-EE-A2GL-06,RAS_Hotspot_Mutants,UV signature,0,40,FEMALE,YES,Extremities,3.1,NO,T3,N0,M0,Stage II,Regional Lymph Node,Alive,1673,0
+TCGA-EE-A2GM-06,RAS_Hotspot_Mutants,UV signature,2,70,FEMALE,YES,Trunk,6.5,YES,T4,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,2296,0
+TCGA-EE-A2GN-06,RAS_Hotspot_Mutants,UV signature,1,67,MALE,YES,Trunk,1.9,YES,T2,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,2766,0
+TCGA-EE-A2GO-06,RAS_Hotspot_Mutants,UV signature,0,66,FEMALE,YES,Extremities,3.4,[ERROR],T3,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,3101,0
+TCGA-EE-A2GP-06,RAS_Hotspot_Mutants,UV signature,1,80,MALE,YES,Extremities,4.2,YES,T4,N1,M0,Stage III,Regional Skin or Soft Tissue,Dead,422,1
+TCGA-EE-A2GR-06,NF1_Any_Mutants,UV signature,0,78,MALE,YES,Extremities,6.9,[Not Available],T4,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,435,0
+TCGA-EE-A2GS-06,BRAF_Hotspot_Mutants,UV signature,0,28,FEMALE,YES,Extremities,1.8,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,1691,0
+TCGA-EE-A2GT-06,BRAF_Hotspot_Mutants,UV signature,2,77,MALE,YES,Trunk,2.2,NO,T3,N0,M0,Stage II,Regional Lymph Node,Alive,595,0
+TCGA-EE-A2GU-06,RAS_Hotspot_Mutants,UV signature,0,65,FEMALE,YES,Extremities,0.3,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,2042,0
+TCGA-EE-A2M5-06,BRAF_Hotspot_Mutants,UV signature,0,49,MALE,YES,Trunk,0.8,NO,T1,N0,M0,Stage I,Regional Lymph Node,Dead,659,1
+TCGA-EE-A2M6-06,BRAF_Hotspot_Mutants,UV signature,1,61,MALE,YES,Trunk,0.7,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,3931,0
+TCGA-EE-A2M7-06,BRAF_Hotspot_Mutants,not UV,0,66,MALE,YES,Trunk,2.2,[Not Available],T3,N0,M0,Stage II,Regional Lymph Node,Dead,876,1
+TCGA-EE-A2M8-06,BRAF_Hotspot_Mutants,UV signature,0,54,FEMALE,YES,Extremities,2,NO,T2,N1,M0,Stage III,Regional Lymph Node,Dead,601,1
+TCGA-EE-A2MC-06,RAS_Hotspot_Mutants,UV signature,0,73,MALE,YES,Extremities,1,NO,T1,N0,M0,Stage I,Regional Lymph Node,Dead,1871,0
+TCGA-EE-A2MD-06,RAS_Hotspot_Mutants,UV signature,0,52,MALE,YES,Extremities,3,YES,T3,N0,M0,Stage II,Regional Lymph Node,Dead,1438,1
+TCGA-EE-A2ME-06,BRAF_Hotspot_Mutants,UV signature,1,51,MALE,YES,Trunk,0.52,NO,T1,N0,M0,Stage I,Regional Lymph Node,Dead,3141,1
+TCGA-EE-A2MF-06,RAS_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A2MG-06,BRAF_Hotspot_Mutants,UV signature,0,23,MALE,[ERROR],[ERROR],[ERROR],[ERROR],[ERROR],[ERROR],[ERROR],[ERROR],Regional Lymph Node,Dead,3138,1
+TCGA-EE-A2MH-06,BRAF_Hotspot_Mutants,UV signature,0,66,MALE,YES,Trunk,3.4,NO,T3,N0,M0,Stage II,Regional Lymph Node,Dead,516,1
+TCGA-EE-A2MI-06,NF1_Any_Mutants,UV signature,0,43,MALE,YES,Extremities,0.4,[Not Available],T1,N0,M0,Stage I,Regional Lymph Node,Dead,6224,1
+TCGA-EE-A2MJ-06,NF1_Any_Mutants,UV signature,0,60,MALE,YES,Trunk,11,NO,T4,N0,M0,Stage II,Regional Lymph Node,Dead,2927,0
+TCGA-EE-A2MK-06,BRAF_Hotspot_Mutants,UV signature,0,18,FEMALE,YES,Extremities,5.2,NO,T4,N0,M0,Stage II,Regional Lymph Node,Alive,4403,0
+TCGA-EE-A2ML-06,RAS_Hotspot_Mutants,UV signature,0,35,MALE,YES,Trunk,3,NO,T3,N0,M0,Stage II,Regional Lymph Node,Alive,6175,0
+TCGA-EE-A2MM-06,RAS_Hotspot_Mutants,UV signature,0,63,FEMALE,YES,Trunk,0.6,[Not Available],T1,N0,M0,Stage I,Regional Lymph Node,Dead,5106,1
+TCGA-EE-A2MN-06,RAS_Hotspot_Mutants,UV signature,0,58,MALE,YES,Trunk,1,NO,T1,N0,M0,Stage I,Regional Lymph Node,Dead,1446,1
+TCGA-EE-A2MP-06,BRAF_Hotspot_Mutants,UV signature,0,34,FEMALE,YES,Extremities,1.05,[Not Available],T2,N0,M0,[Not Applicable],Regional Lymph Node,Alive,7562,1
+TCGA-EE-A2MQ-06,BRAF_Hotspot_Mutants,UV signature,0,70,FEMALE,YES,Trunk,3.1,NO,T3,N2,M0,Stage III,Regional Lymph Node,Dead,1315,1
+TCGA-EE-A2MR-06,Triple_WT,UV signature,0,61,MALE,YES,Trunk,1.25,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,3150,0
+TCGA-EE-A2MS-06,NF1_Any_Mutants,UV signature,0,72,MALE,YES,Extremities,1.8,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,4150,0
+TCGA-EE-A2MT-06,NF1_Any_Mutants,UV signature,0,45,MALE,YES,Trunk,1.5,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,1265,0
+TCGA-EE-A2MU-06,RAS_Hotspot_Mutants,UV signature,1,71,MALE,YES,Extremities,0.5,NO,T1,N0,M0,Stage I,Regional Skin or Soft Tissue,Alive,1620,0
+TCGA-EE-A3AA-06,BRAF_Hotspot_Mutants,UV signature,0,47,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Applicable],Regional Lymph Node,Alive,3781,0
+TCGA-EE-A3AB-06,BRAF_Hotspot_Mutants,UV signature,0,30,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Applicable],Regional Lymph Node,Alive,3733,0
+TCGA-EE-A3AC-06,RAS_Hotspot_Mutants,UV signature,0,47,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Applicable],Regional Lymph Node,Alive,786,0
+TCGA-EE-A3AD-06,BRAF_Hotspot_Mutants,UV signature,0,50,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Applicable],Regional Lymph Node,Alive,112,0
+TCGA-EE-A3AE-06,NF1_Any_Mutants,UV signature,2,52,FEMALE,YES,Extremities,0.9,NO,T1,N0,M0,Stage I,Regional Lymph Node,Alive,813,0
+TCGA-EE-A3AF-06,BRAF_Hotspot_Mutants,UV signature,1,48,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Applicable],Regional Lymph Node,Dead,420,1
+TCGA-EE-A3AG-06,BRAF_Hotspot_Mutants,UV signature,0,25,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Applicable],Regional Skin or Soft Tissue,Alive,714,0
+TCGA-EE-A3AH-06,BRAF_Hotspot_Mutants,UV signature,1,30,MALE,YES,Extremities,3.7,NO,T3,N0,M0,Stage II,Regional Lymph Node,Dead,4221,1
+TCGA-EE-A3J3-06,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A3J4-06,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A3J5-06,NF1_Any_Mutants,UV signature,0,71,MALE,YES,Extremities,4.8,NO,T4,N1,M0,Stage III,Regional Skin or Soft Tissue,Dead,1124,1
+TCGA-EE-A3J7-06,RAS_Hotspot_Mutants,UV signature,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A3J8-06,RAS_Hotspot_Mutants,UV signature,0,59,MALE,YES,Trunk,4.8,NO,T4,N1,M0,Stage III,Regional Skin or Soft Tissue,Dead,1044,0
+TCGA-EE-A3JA-06,RAS_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A3JB-06,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A3JD-06,NF1_Any_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A3JE-06,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-EE-A3JH-06,BRAF_Hotspot_Mutants,UV signature,1,54,MALE,YES,Trunk,1.3,[Not Available],T2,N0,M0,[Not Applicable],Regional Lymph Node,Alive,3095,0
+TCGA-EE-A3JI-06,RAS_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A193-06,BRAF_Hotspot_Mutants,UV signature,3,62,MALE,YES,Head and Neck,[Not Available],[ERROR],T3,N0,M0,Stage II,Regional Lymph Node,Dead,955,1
+TCGA-ER-A194-01,RAS_Hotspot_Mutants,UV signature,3,77,MALE,YES,Other  Specify,4.5,YES,T4,N0,M0,Stage II,Primary Tumor,Dead,1354,1
+TCGA-ER-A195-06,RAS_Hotspot_Mutants,UV signature,2,46,MALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Regional Lymph Node,Dead,1078,1
+TCGA-ER-A196-01,Triple_WT,not UV,1,64,FEMALE,YES,Extremities,22,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,476,0
+TCGA-ER-A197-06,Triple_WT,not UV,2,83,FEMALE,YES,Other  Specify,8,YES,T4,N1,M0,Stage III,[Not Available],Dead,423,1
+TCGA-ER-A198-06,BRAF_Hotspot_Mutants,UV signature,2,45,MALE,YES,Other  Specify,10,YES,T4,[Not Applicable],M0,[Not Applicable],Regional Skin or Soft Tissue,Dead,1543,1
+TCGA-ER-A199-06,RAS_Hotspot_Mutants,UV signature,2,86,FEMALE,YES,Extremities,3,YES,T3,N3,M0,Stage III,Regional Lymph Node,Dead,279,1
+TCGA-ER-A19A-06,NF1_Any_Mutants,UV signature,1,79,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N0,M1,Stage IV,Regional Skin or Soft Tissue,Alive,2365,0
+TCGA-ER-A19B-06,BRAF_Hotspot_Mutants,not UV,0,42,MALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Regional Skin or Soft Tissue,Dead,2993,1
+TCGA-ER-A19C-06,BRAF_Hotspot_Mutants,UV signature,2,77,MALE,YES,Trunk,0.75,NO,T1,[Not Applicable],M0,Stage I,Regional Lymph Node,Dead,1487,1
+TCGA-ER-A19D-06,RAS_Hotspot_Mutants,UV signature,0,46,FEMALE,YES,Trunk,1.75,NO,T2,N0,M0,Stage I,Regional Skin or Soft Tissue,Dead,383,1
+TCGA-ER-A19E-06,BRAF_Hotspot_Mutants,UV signature,0,36,FEMALE,YES,Extremities,1.1,NO,T2,N0,M0,Stage I,Regional Lymph Node,Dead,396,1
+TCGA-ER-A19F-06,NF1_Any_Mutants,UV signature,0,82,MALE,YES,Extremities,6.7,[Not Available],T4,N0,M0,Stage II,Regional Lymph Node,Dead,802,0
+TCGA-ER-A19G-06,BRAF_Hotspot_Mutants,UV signature,0,48,FEMALE,YES,Extremities,1.6,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,8180,0
+TCGA-ER-A19H-06,BRAF_Hotspot_Mutants,UV signature,0,40,MALE,YES,Trunk,0.4,[Not Available],T1,N0,M0,Stage I,Regional Skin or Soft Tissue,Dead,4634,0
+TCGA-ER-A19J-06,BRAF_Hotspot_Mutants,UV signature,0,54,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N3,M1,Stage IV,Regional Lymph Node,Dead,195,1
+TCGA-ER-A19K-01,BRAF_Hotspot_Mutants,UV signature,0,79,FEMALE,YES,Head and Neck,6.8,YES,T4,N0,M0,Stage II,Primary Tumor,Dead,469,1
+TCGA-ER-A19L-06,Triple_WT,UV signature,1,35,MALE,YES,Extremities,[Not Available],[Not Available],[Not Available],[Not Available],[Not Available],[Not Available],Regional Lymph Node,Dead,3987,1
+TCGA-ER-A19M-06,BRAF_Hotspot_Mutants,UV signature,1,36,MALE,YES,Extremities,1.9,NO,T2,N0,M0,Stage I,Regional Lymph Node,Dead,1857,1
+TCGA-ER-A19N-06,RAS_Hotspot_Mutants,UV signature,3,47,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Available],Regional Lymph Node,Alive,1340,0
+TCGA-ER-A19O-06,BRAF_Hotspot_Mutants,UV signature,3,56,MALE,YES,Trunk,[Not Available],YES,T3,N1,M0,Stage III,Regional Lymph Node,Dead,[Not Available],1
+TCGA-ER-A19P-06,BRAF_Hotspot_Mutants,not UV,0,47,FEMALE,YES,Extremities,[Not Available],[Not Available],[Not Available],N0,M0,[Not Applicable],Regional Lymph Node,Dead,4930,1
+TCGA-ER-A19Q-06,BRAF_Hotspot_Mutants,UV signature,3,37,FEMALE,YES,Extremities,1.2,NO,T2,N0,M0,Stage I,Regional Lymph Node,Dead,1548,1
+TCGA-ER-A19S-06,BRAF_Hotspot_Mutants,UV signature,0,81,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Applicable],Regional Lymph Node,Alive,1113,0
+TCGA-ER-A19T-01,-,not UV,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A19T-06,Triple_WT,not UV,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A19W-06,RAS_Hotspot_Mutants,UV signature,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A1A1-06,Triple_WT,UV signature,1,58,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,N3,M0,Stage III,Regional Lymph Node,Alive,2433,0
+TCGA-ER-A2NB-01,RAS_Hotspot_Mutants,not UV,2,57,MALE,YES,Other  Specify,4.39,YES,T4,N2,M0,Stage III,Primary Tumor,Alive,485,0
+TCGA-ER-A2NC-06,-,UV signature,0,50,MALE,YES,Extremities,1.97,NO,T2,N0,M0,Stage I,Distant Metastasis,Dead,1339,1
+TCGA-ER-A2ND-06,BRAF_Hotspot_Mutants,not UV,1,57,FEMALE,YES,Extremities,1,NO,T1,N3,M0,Stage III,Distant Metastasis,Dead,710,1
+TCGA-ER-A2NE-06,RAS_Hotspot_Mutants,UV signature,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A2NF-01,-,UV signature,3,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A2NF-06,Triple_WT,UV signature,3,53,MALE,YES,Head and Neck,4,YES,T3,N3,M0,Stage III,Primary Tumor,Alive,497,0
+TCGA-ER-A2NG-06,BRAF_Hotspot_Mutants,UV signature,1,43,FEMALE,YES,Trunk,3,YES,T3,N3,M0,Stage III,Regional Lymph Node,Alive,951,0
+TCGA-ER-A2NH-06,RAS_Hotspot_Mutants,UV signature,2,49,MALE,YES,Trunk,4,[ERROR],T3,N3,M0,Stage III,Regional Lymph Node,Alive,975,0
+TCGA-ER-A3ES-06,Triple_WT,not UV,1,25,MALE,YES,Extremities,[Not Available],[Not Available],[Not Available],[Not Available],[Not Available],[Not Available],Distant Metastasis,Dead,7514,1
+TCGA-ER-A3ET-06,Triple_WT,not UV,1,64,FEMALE,YES,Other  Specify,3.55,NO,T3,N1,M0,Stage III,Regional Skin or Soft Tissue,Alive,2443,0
+TCGA-ER-A3EV-06,Triple_WT,not UV,2,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A3PL-06,BRAF_Hotspot_Mutants,UV signature,0,30,MALE,YES,Extremities,2.2,YES,T3,N0,M1,Stage IV,Regional Skin or Soft Tissue,Alive,1010,0
+TCGA-ER-A42H-01,Triple_WT,not UV,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A42K-06,BRAF_Hotspot_Mutants,UV signature,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-ER-A42L-06,BRAF_Hotspot_Mutants,UV signature,1,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-FR-A2OS-01,Triple_WT,not UV,0,49,FEMALE,YES,Extremities,[Not Available],YES,T4,N0,M0,Stage II,Primary Tumor,Dead,368,1
+TCGA-FR-A3R1-01,NF1_Any_Mutants,UV signature,0,69,MALE,YES,Extremities,6.3,YES,T4,N0,M0,Stage II,Primary Tumor,Alive,307,0
+TCGA-FR-A3YN-06,RAS_Hotspot_Mutants,UV signature,1,44,MALE,YES,Extremities,1.25,NO,T2,N0,M0,Stage I,Regional Lymph Node,Alive,2448,0
+TCGA-FR-A3YO-06,BRAF_Hotspot_Mutants,UV signature,3,57,FEMALE,YES,Extremities,[Not Available],[Not Available],T2,N0,M0,[Not Applicable],Distant Metastasis,Alive,[Not Available],0
+TCGA-FR-A44A-06,BRAF_Hotspot_Mutants,UV signature,0,29,FEMALE,YES,Extremities,2.51,NO,T3,N0,M0,Stage II,Regional Lymph Node,Alive,4885,0
+TCGA-FS-A1YW-06,RAS_Hotspot_Mutants,UV signature,0,52,MALE,YES,Trunk,1,NO,T1,N0,M0,Stage I,Regional Lymph Node,Dead,6598,1
+TCGA-FS-A1YX-06,BRAF_Hotspot_Mutants,UV signature,1,39,FEMALE,YES,Trunk,1.1,NO,T2,N0,M0,Stage I,Regional Skin or Soft Tissue,Dead,1478,1
+TCGA-FS-A1YY-06,BRAF_Hotspot_Mutants,UV signature,1,55,FEMALE,YES,Trunk,2.7,NO,T3,N0,M0,Stage II,Distant Metastasis,Dead,6953,1
+TCGA-FS-A1Z0-06,RAS_Hotspot_Mutants,UV signature,0,32,FEMALE,YES,Extremities,0.95,NO,T1,N0,M0,Stage I,Distant Metastasis,Dead,6163,1
+TCGA-FS-A1Z3-06,RAS_Hotspot_Mutants,UV signature,0,72,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Available],Distant Metastasis,Dead,636,1
+TCGA-FS-A1Z4-06,Triple_WT,not UV,0,62,MALE,YES,Extremities,0.85,NO,T1,N0,M0,Stage I,Regional Lymph Node,Dead,854,1
+TCGA-FS-A1Z7-06,BRAF_Hotspot_Mutants,UV signature,0,19,MALE,YES,Head and Neck,17,YES,T4,N1,M0,Stage III,Regional Lymph Node,Dead,236,1
+TCGA-FS-A1ZA-06,NF1_Any_Mutants,UV signature,0,45,FEMALE,YES,Trunk,4.5,YES,T4,N2,M0,Stage III,Distant Metastasis,Dead,842,1
+TCGA-FS-A1ZB-06,RAS_Hotspot_Mutants,UV signature,1,57,MALE,YES,Trunk,3,NO,T3,N0,M0,Stage II,Distant Metastasis,Dead,1486,1
+TCGA-FS-A1ZC-06,BRAF_Hotspot_Mutants,UV signature,0,51,MALE,YES,Trunk,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Distant Metastasis,Dead,10870,1
+TCGA-FS-A1ZD-06,BRAF_Hotspot_Mutants,UV signature,0,63,MALE,YES,Extremities,1.18,YES,T2,N0,M0,Stage II,Regional Lymph Node,Dead,1628,1
+TCGA-FS-A1ZE-06,RAS_Hotspot_Mutants,UV signature,0,40,MALE,YES,Trunk,5,YES,T4,N0,M0,Stage II,Distant Metastasis,Alive,1225,0
+TCGA-FS-A1ZF-06,BRAF_Hotspot_Mutants,UV signature,0,78,FEMALE,YES,Extremities,4.3,YES,T4,N0,M0,Stage II,Distant Metastasis,Dead,470,1
+TCGA-FS-A1ZG-06,Triple_WT,not UV,3,60,FEMALE,YES,Extremities,6,YES,T4,N2,M0,Stage III,Regional Lymph Node,Dead,295,1
+TCGA-FS-A1ZH-06,BRAF_Hotspot_Mutants,not UV,0,71,FEMALE,YES,Extremities,3,YES,T3,N2,M1,Stage IV,Regional Lymph Node,Dead,995,1
+TCGA-FS-A1ZJ-06,Triple_WT,not UV,2,75,FEMALE,YES,Trunk,1.22,NO,T2,N0,M0,Stage I,Regional Lymph Node,Dead,1441,1
+TCGA-FS-A1ZK-06,RAS_Hotspot_Mutants,UV signature,0,68,MALE,YES,Head and Neck,5,[Not Available],T4,N0,M0,Stage II,Distant Metastasis,Dead,728,1
+TCGA-FS-A1ZM-06,BRAF_Hotspot_Mutants,UV signature,0,74,MALE,YES,Extremities,1.2,[Not Available],T2,N2,M0,Stage III,Regional Skin or Soft Tissue,Alive,3080,0
+TCGA-FS-A1ZN-01,BRAF_Hotspot_Mutants,UV signature,0,43,MALE,YES,Trunk,8,YES,T4,N1,M0,Stage III,Primary Tumor,Dead,730,1
+TCGA-FS-A1ZP-06,RAS_Hotspot_Mutants,UV signature,3,52,MALE,YES,Extremities,2.5,[Not Available],T3,N0,M0,Stage II,Regional Lymph Node,Dead,2273,1
+TCGA-FS-A1ZQ-06,RAS_Hotspot_Mutants,UV signature,3,31,MALE,YES,Extremities,[Not Available],[Not Available],[Not Applicable],N0,M0,[Not Applicable],Distant Metastasis,Dead,4062,1
+TCGA-FS-A1ZR-06,BRAF_Hotspot_Mutants,UV signature,0,36,MALE,YES,Trunk,2,[Not Available],T2,N0,M0,[Not Applicable],Regional Skin or Soft Tissue,Dead,347,1
+TCGA-FS-A1ZS-06,BRAF_Hotspot_Mutants,UV signature,0,54,MALE,YES,Trunk,1.15,[Not Available],T2,N0,M0,[Not Applicable],Regional Lymph Node,Alive,4525,0
+TCGA-FS-A1ZT-06,RAS_Hotspot_Mutants,UV signature,0,55,MALE,YES,Extremities,1.15,[Not Available],T2,N1,M0,Stage III,Distant Metastasis,Alive,1617,0
+TCGA-FS-A1ZU-06,Triple_WT,not UV,0,70,FEMALE,YES,Extremities,8.4,YES,T4,N0,M0,Stage II,Distant Metastasis,Dead,808,1
+TCGA-FS-A1ZW-06,RAS_Hotspot_Mutants,UV signature,0,65,MALE,YES,Extremities,1.2,YES,T2,N1,M0,Stage III,Regional Lymph Node,Alive,1505,0
+TCGA-FS-A1ZY-06,RAS_Hotspot_Mutants,not UV,2,71,MALE,YES,Trunk,2.9,YES,T3,N0,M0,Stage II,Distant Metastasis,Dead,823,1
+TCGA-FS-A1ZZ-06,NF1_Any_Mutants,UV signature,0,54,FEMALE,YES,Trunk,3.8,YES,T3,N0,M0,Stage II,Distant Metastasis,Dead,822,1
+TCGA-FS-A4F0-06,Triple_WT,UV signature,0,67,FEMALE,YES,Trunk,14,NO,T4,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,2366,0
+TCGA-FS-A4F2-06,-,-,0,46,FEMALE,YES,Head and Neck,4.7,YES,T4,N0,M0,Stage II,Distant Metastasis,Dead,1525,1
+TCGA-FS-A4F4-06,NF1_Any_Mutants,not UV,3,64,MALE,YES,Extremities,2,YES,T2,N0,M0,Stage II,Distant Metastasis,Dead,2028,1
+TCGA-FS-A4F5-06,RAS_Hotspot_Mutants,UV signature,0,77,FEMALE,YES,Extremities,1.48,NO,T2,N0,M0,Stage I,Regional Skin or Soft Tissue,Dead,874,1
+TCGA-FS-A4F8-06,BRAF_Hotspot_Mutants,UV signature,2,52,MALE,YES,Extremities,0.9,[Not Available],T1,N0,M0,Stage I,Distant Metastasis,Dead,5318,1
+TCGA-FS-A4F9-06,RAS_Hotspot_Mutants,UV signature,2,80,MALE,YES,Trunk,10,YES,T4,N3,M0,Stage III,Regional Lymph Node,Alive,378,0
+TCGA-FS-A4FB-06,BRAF_Hotspot_Mutants,UV signature,0,46,FEMALE,YES,Extremities,2,[Not Available],T2,N1,M0,Stage III,Regional Lymph Node,Dead,813,1
+TCGA-FS-A4FC-06,RAS_Hotspot_Mutants,UV signature,1,75,FEMALE,YES,Extremities,4,NO,T3,N0,M0,Stage II,Regional Skin or Soft Tissue,Alive,1504,0
+TCGA-FS-A4FD-06,RAS_Hotspot_Mutants,UV signature,0,39,MALE,YES,Trunk|Head and Neck,2,[Not Available],T2,N3,M0,Stage III,Regional Lymph Node,Alive,2369,0
+TCGA-FW-A3I3-06,NF1_Any_Mutants,not UV,0,59,FEMALE,[ERROR],[ERROR],[ERROR],[ERROR],[ERROR],[ERROR],[ERROR],[ERROR],Distant Metastasis,Alive,6,0
+TCGA-FW-A3R5-06,-,UV signature,0,68,MALE,YES,Head and Neck,[Not Available],[Not Available],[Not Applicable],N2,M0,Stage III,Regional Lymph Node,Alive,699,0
+TCGA-FW-A3TU-06,NF1_Any_Mutants,UV signature,3,72,FEMALE,YES,Trunk,[Not Available],[Not Available],[Not Available],[Not Available],[Not Available],[Not Available],Distant Metastasis,Alive,1446,0
+TCGA-FW-A3TV-06,BRAF_Hotspot_Mutants,UV signature,0,57,FEMALE,YES,Trunk,0.5,[Not Available],T1,N2,M0,Stage III,Regional Lymph Node,Alive,0,0
+TCGA-FW-A5DX-01,BRAF_Hotspot_Mutants,UV signature,0,71,MALE,YES,Trunk,7,NO,T4,[Not Available],[Not Available],[Not Available],Primary Tumor,Alive,61,0
+TCGA-GF-A2C7-01,BRAF_Hotspot_Mutants,UV signature,1,48,MALE,YES,Head and Neck,[Not Available],YES,T4,N0,M0,Stage II,Primary Tumor,Alive,21,0
+TCGA-GF-A3OT-06,RAS_Hotspot_Mutants,UV signature,0,58,FEMALE,YES,Extremities,[Not Available],[Not Available],T3,N3,M0,Stage III,Regional Lymph Node,Alive,301,0
+TCGA-GF-A4EO-06,BRAF_Hotspot_Mutants,UV signature,0,74,FEMALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Available],Regional Lymph Node,Alive,220,0
+TCGA-GN-A262-06,BRAF_Hotspot_Mutants,UV signature,2,47,FEMALE,YES,Trunk,3,[Not Available],T3,[Not Available],[Not Available],[Not Available],Regional Skin or Soft Tissue,Alive,3664,0
+TCGA-GN-A263-01,BRAF_Hotspot_Mutants,UV signature,0,24,MALE,YES,Trunk,[Not Available],YES,T4,N3,M1,Stage IV,Primary Tumor,Dead,467,1
+TCGA-GN-A264-06,Triple_WT,not UV,1,60,MALE,YES,Extremities,7,NO,T4,[Not Available],[Not Available],[Not Available],Regional Lymph Node,Dead,3587,1
+TCGA-GN-A265-06,BRAF_Hotspot_Mutants,not UV,0,53,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Available],Regional Lymph Node,Alive,2577,0
+TCGA-GN-A266-06,NF1_Any_Mutants,UV signature,0,45,MALE,NO,[Not Applicable],[Not Applicable],[Not Applicable],T0,[Not Available],[Not Available],[Not Available],Regional Skin or Soft Tissue,Dead,307,1
+TCGA-GN-A267-06,RAS_Hotspot_Mutants,UV signature,0,38,MALE,YES,Trunk,5.2,NO,T4,N1,M0,Stage III,Regional Lymph Node,Dead,1959,1
+TCGA-GN-A268-06,RAS_Hotspot_Mutants,UV signature,1,83,FEMALE,YES,Extremities,9.8,NO,T4,N0,M0,Stage II,Regional Lymph Node,Dead,1909,1
+TCGA-GN-A269-01,NF1_Any_Mutants,UV signature,3,70,MALE,YES,Trunk,5,YES,T4,N3,M0,Stage III,Primary Tumor,Dead,170,1
+TCGA-GN-A26A-06,Triple_WT,UV signature,1,63,FEMALE,YES,Trunk,2.3,NO,T3,N1,M0,Stage III,Regional Skin or Soft Tissue,Dead,988,1
+TCGA-GN-A26C-01,NF1_Any_Mutants,UV signature,0,77,MALE,YES,Trunk,1.15,YES,T2,N2,M0,Stage III,Primary Tumor,Dead,821,1
+TCGA-GN-A26D-06,Triple_WT,not UV,0,72,FEMALE,YES,Extremities,12,YES,T4,N0,[Not Available],Stage II,Regional Lymph Node,Alive,1204,0
+TCGA-HR-A5NC-01,-,-,0,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+TCGA-IH-A3EA-01,BRAF_Hotspot_Mutants,UV signature,2,61,MALE,YES,Head and Neck,[Not Available],YES,T4,N0,M0,Stage II,Primary Tumor,Alive,524,0

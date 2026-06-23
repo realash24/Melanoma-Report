@@ -1,0 +1,225 @@
+---
+title: "Cutaneous Melanoma in the Ageing Population"
+author: "SID: 560650765"
+format: 
+  html:
+    embed-resources: true
+    toc: true
+    code-fold: true
+---
+
+# Client Introduction
+
+The Hon. Sam Rae, Minister for Aged Care and Seniors at the Australian Government Department of Health, Disability and Ageing is investing into providing quality, affordable care to Australian seniors and minimising hospitalisations. His advocacy is primarily focused on dementia and other age-related illnesses.
+
+<https://www.linkedin.com/in/samraemp/>
+
+![](images/clipboard-1464530932.png){width="160"}
+
+# Recommendation
+
+With the median diagnosis age for cutaneous melanoma being 57 and most cases being caught at stage II or III, targeted intervention is vital. Aged care systems must implement and promote melanoma screening, prevention, and treatment for older Australians to effectively extend lifespans and improve their quality of life.
+
+# Evidence
+
+Cancer data from the [Australian Institute of Health and Welfare](https://www.aihw.gov.au/reports/cancer/cancer-data-in-australia/data) (AIHW) (2025) establishes an escalating issue concerning the older Australian population. It was found that 15,034 Australians were newly diagnosed with melanoma in 2021 with incidence rates projected to increase over time. As demonstrated in Figure 1, melanoma incidence is heavily concentrated within older demographics (with individuals aged 65-74 alone making up approximately 27% of incidences in 2021).
+
+```{r message = FALSE, warning = FALSE}
+
+# Loading libraries
+library(tidyverse)
+library(plotly)
+library(readxl)
+library(gganimate)
+library(gifski)
+
+# Reading, filtering and formating AIHW dataset
+external=read_xlsx("Melanoma Incidence.xlsx", skip=4)
+external=subset(external, 
+  `Age group (years)` != "All ages combined" &
+  Sex %in% c("Persons") &
+    `Data type` %in% c("Actual") & `Cancer group/site` %in% c("Melanoma of the skin"))
+external$Year=as.integer(external$Year)
+external$Count=as.integer(external$Count)
+
+# Creating first visualisation
+plot = ggplot(external, aes(x=`Age group (years)`,y=Count))+
+  geom_col(fill="indianred3")+
+  labs(x="Age Group", y="Count", caption = "Source: AIHW dataset.")+
+  transition_states(Year, transition_length=1, state_length=0)+
+  ggtitle("Figure 1: Melanoma Incidences by Age in Australia", subtitle = "Year: {closest_state}")+
+  theme_classic()+
+  theme(plot.caption = element_text(hjust = 0))
+animate(plot, renderer = gifski_renderer(), duration=15)
+```
+
+Additionally, data on the [Genomic Classification of Cutaneous Melanoma](https://pmc.ncbi.nlm.nih.gov/articles/PMC4580370/) was collected by [The Cancer Genome Atlas](https://www.cancer.gov/ccg/research/genome-sequencing/tcga) (TCGA) by analysing 333 tissue samples from melanoma patients.
+
+```{r message = FALSE, warning = FALSE}
+#| fig-cap: "<span style='font-family: Arial, sans-serif !important; font-size: 14px !important; color: #333333 !important; display: block; text-align: left !important; margin-top: 10px !important; padding-left: 60px !important; line-height: 1.4;'>Source: TCGA dataset. Note: Hover over line to view exact densities; hover over base of vertical line to view median age at diagnosis."
+
+# Reading, filtering and formating TCGA dataset
+melanoma=read.csv("melanoma.csv")
+melanoma = rename(melanoma, age=CURATED_AGE_AT_INITIAL_PATHOLOGIC_DIAGNOSIS)
+melanoma = rename(melanoma, diagnosis_stage=CURATED_PATHOLOGIC_STAGE_AJCC7_AT_DIAGNOSIS_SIMPLE)
+melanoma$age=as.integer(melanoma$age)
+melanoma = subset(melanoma, age >=0)
+
+# Creating second visualisation
+median = median(melanoma$age)
+age_density = ggplot(melanoma, aes(x=age))+
+  geom_line(stat="density", colour="indianred4")+
+  labs(x="Age of Pathologic Diagnosis", y="Density", title="Figure 2: Distribution of Age at Melanoma Diagnosis")+
+  theme_classic()+
+  geom_vline(aes(xintercept=median), colour = "indianred2", linetype = 3)
+ggplotly(age_density)|>
+  style(hovertemplate = "Age: %{x:.0f}<br>Density: %{y:.3f}<extra></extra>", traces = 1) |>
+  style(hovertemplate = "Median: %{x:.0f}<extra></extra>", traces = 2)
+```
+
+The AIM at Melanoma Foundation (n.d.) proposes that the median age at melanoma diagnosis is 59. A proportion test (with test statistic = -1.755617 and p-value = 0.07915) suggests that the TCGA dataset does not significantly deviate from this median. In fact, individuals aged ≥59 in the sample cohort actually constitute 45% of the sample (rather than the expected 50%), making it evident that older patients represent a significant proportion of the population. Moreover, Figure 2 (n=292) reveals that the true median age of diagnosis in the studied dataset is 57 years old and shows high densities for older ages. This encourages advocacy for melanoma prevention in the elderly.
+
+```{r message = FALSE, warning = FALSE}
+#| fig-cap: "<span style='font-family: Arial, sans-serif !important; font-size: 14px !important; color: #333333 !important; display: block; text-align: left !important; margin-top: 10px !important; padding-left: 50px !important; line-height: 1.4;'>Source: TCGA dataset. Note: Hover over bars to view specific proportions."
+
+library(Hmisc)
+
+# Filtering, grouping and formating TCGA dataset
+melanoma_stages = subset(melanoma, diagnosis_stage %in% c("Stage I", "Stage II", "Stage III", "Stage IV"))
+melanoma_stages$age_cat = cut2(melanoma_stages$age, c(35, 55, 75, 95))
+levels(melanoma_stages$age_cat) = c("15-34", "35-54", "55-74", "75-94")
+
+# Pre-calculating proportions for hover customisation
+melanoma_counts = count(melanoma_stages, age_cat, diagnosis_stage)
+melanoma_grouped = group_by(melanoma_counts, age_cat)
+melanoma_prop = mutate(melanoma_grouped, Proportion = n / sum(n))
+
+# Creating third visualisation
+stages = ggplot(melanoma_prop, aes(x=age_cat, y=Proportion, fill=diagnosis_stage, text=paste("Proportion:", round(Proportion, 2), "<br>Age Group:", age_cat, "<br>Diagnosis Stage:", diagnosis_stage))) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(name = "Pathalogic Stage",
+                    values = c("Stage I"   = "indianred1",
+                               "Stage II"  = "indianred2",
+                               "Stage III" = "indianred3",
+                               "Stage IV"  = "indianred4")) +
+  labs(x = "Age Group", y = "Proportion",
+       title = "Figure 3: Proportion of Pathologic Stage at Diagnosis by Age Group",
+       caption = "Source: TCGA dataset.") +
+  theme_classic()
+ggplotly(stages, tooltip = "text")
+```
+
+Figure 3 (n=242) shows that older patients are predominantly diagnosed with stage II or stage III melanoma. Stage I melanoma patients have a 5-year survival rate of ≥97% after initial melanoma diagnosis. This drops to 82-94% at stage II and collapses to 32-93% by stage III (Melanoma Research Alliance, n.d.). Without appropriate intervention, it is likely that older people will continue to bypass early-detection, driving down survival rates and increasing burden within the aged care sector.
+
+Thus, aged care support policies should ultimately work to intercept advanced melanoma and safeguard the quality of life of seniors.
+
+## Limitations
+
+A primary limitation is the geographic and demographic disparity between the dataset and the target population. While incidence counts are Australian (AIHW), the median age of diagnosis and proportion of patients diagnosed at various melanoma stages are likely derived from American tissue samples (TCGA). Utilising a US-based median age of diagnosis matches the TCGA dataset but assumes parity with Australia. Given Australia’s higher exposure to UV radiation (a key melanoma driver), the TCGA data likely underestimates the diagnostic severity of melanoma, meaning the local melanoma crisis may be more urgent than these figures suggest.
+
+# Declaration on Professional Ethics
+
+Professionalism (Shared Value): High-quality data was analysed to serve society by generating evidence for the implementation of melanoma screening and prevention schemes in aged care.
+
+Pursuing Objectivity (Ethical Principle): Datasets and visualisations were selected to provide accurate, transparent information on the impact of melanoma on the elderly while acknowledging limitations.
+
+# AI Usage Statement
+
+I acknowledge the use of:\
+AI tool: Claude AI; Version: Sonnet 4.6; Publisher: Anthropic; URL: [https://claude.ai](https://claude.ai/new)
+
+for assistance with grouping and filtering the datasets appropriately for each visualisation, making graphs more visually pleasing, customising hover labels when using ggplotly, adding figure captions, and correcting syntax errors when I was unable to locate the source myself.
+
+# References
+
+AIM at Melanoma Foundation. (n.d.). Is Age a Risk Factor for Melanoma? <https://www.aimatmelanoma.org/melanoma-101/understanding-melanoma/melanoma-risk-factors/age-and-risk/> 
+
+Australian Institute of Health and Welfare (2025). Cancer Data in Australia. \[Data set\]. <https://www.aihw.gov.au/reports/cancer/cancer-data-in-australia/data> 
+
+Cancer Genome Atlas Network (2015). Genomic Classification of Cutaneous Melanoma. Cell, 161(7), 1681–1696. \[Data set\]. <https://doi.org/10.1016/j.cell.2015.05.044>
+
+Melanoma Research Alliance. (n.d.). Melanoma Staging. <https://www.curemelanoma.org/about-melanoma/melanoma-staging>
+
+# Acknowledgements
+
+Australian Government. (n.d.). The Hon Sam Rae MP. <https://www.health.gov.au/ministers/the-hon-sam-rae-mp>
+
+Frazier, M. (n.d.). R color cheatsheet. <https://www.nceas.ucsb.edu/sites/default/files/2020-04/colorPaletteCheatsheet.pdf>
+
+HarD. (2024, August 30). Adding a mean or median line to a density plot that ends at the within the graphed area \[Online forum post\]. Stack Overflow. <https://stackoverflow.com/questions/78927556/adding-a-mean-or-median-line-to-a-density-plot-that-ends-at-the-within-the-graph> 
+
+Holtz, Y. (n.d.). The R Graph Gallery. <https://r-graph-gallery.com/>
+
+Kulikov, A. (2021, March 17). Categorization of numeric variables. RPubs. <https://rpubs.com/artyom/numintocat> 
+
+Sam Rae. (n.d.). Home \[LinkedIn page\]. LinkedIn. Retrieved May 10, 2026, from <https://www.linkedin.com/in/samraemp/> 
+
+Plotly Technologies Inc. (n.d.). Plotly R Open Source Graphing Library. <https://plotly.com/r/>
+
+# Appendix
+
+The HATPC framework was used to perform the proportion hypothesis test.
+
+::: panel-tabset
+## Hypothesis
+
+Aim: To test if the proportion of cutaneous melanoma patients diagnosed at an age ≥59 is significantly different from the expected 50% in order to confirm whether the median age of diagnosis is 59 years old.
+
+H~0~: p = 0.5
+
+Null hypothesis: the proportion of people diagnosed at an age ≥59 is 50%. (The difference between the observed proportion and expected proportion is due to chance alone).
+
+H~1~: p ≠ 0.5
+
+Alternative hypothesis: the proportion of people diagnosed at an age ≥59 is not 50%. (The difference between the observed proportion and expected proportion is not due to chance alone).
+
+## Assumptions
+
+The following assumptions apply for this proportion test:
+
+1.  Each patient's age of diagnosis is independent of all other patients' age of diagnosis. This means that the event that a specific patient aged ≥59 does not affect the probability that any other patient is diagnosed at an age ≥59. Thus, it is also assumed that if any patients are biologically related, any genetic factors do not determine their age of diagnosis.
+
+2.  All patients have an equal chance of being sampled, regardless of their age of diagnosis (no selection bias during data collection).
+
+3.  All patients have the same probability of being diagnosed at an age ≥59. Thus, it is also assumed that the sample is drawn from a homogeneous population. (This assumption would be violated if (for example) some samples were collected from a pediatric hospital where the chance of a patient being diagnosed at an age ≥59 is low, while remaining samples were collected from an aged care home where the chance of a patient being diagnosed at an age ≥59 is relatively high).
+
+## Test Statistic
+
+The observed value is the total number of patients who were diagnosed at an age ≥59. The expected value is the expected number of patients from the sample who were diagnosed at an age ≥59. The test statistic can be calculated using:
+
+Test statistic = (observed value - expected value) / standard error
+
+Observed value = 131
+
+Expected value = 146
+
+Standard error = 8.544004
+
+Test statistic = -1.755617
+
+## P-Value
+
+p = 0.07915
+
+This means that, assuming the true medial age of diagnosis is 59 years, the probability of obtaining a sample where the proportion of people diagnosed at an age ≥59 is as extreme, or more extreme, than what was observed in the TCGA sample is 7.915%.
+
+```{r}
+# Calculating test statistic and p-value
+library(rafalib)
+n=nrow(melanoma)
+box=c(rep(1,5), rep(0,5)) # 1: age of diagnosis ≥59, 0: age of diagnosis <59
+OV=sum(melanoma$age>=59)
+EV = n*mean(box)
+SE = popsd(box)*sqrt(n)
+test_stat = (OV-EV)/SE
+p_value = 2*(pnorm(test_stat))
+
+prop.test(OV,n,0.5, alt="two.sided", correct=FALSE)
+```
+
+## Conclusion
+
+The calculated p-value (0.07915 is greater than the pre-determined significance level (α = 0.05). This means the data is consistent with the null hypothesis and so, we retain H~0~.
+
+Therefore, there is insufficient statistically significant evidence to suggest that the median age of diagnosis is not 59 years old. Hence, the proportion of patients diagnosed with cutaneous melanoma at an age ≥59 is not evidently different from 50%.
+:::
